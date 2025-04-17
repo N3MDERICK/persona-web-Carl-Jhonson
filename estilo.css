@@ -1,23 +1,43 @@
 body{
     background-color: #142740;
     color: rgb(250, 250, 250);
-
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+h1, .personagem{
     color: #ffffff;
+    font-family: "Asset", serif;
+    font-size: 45px;
 }
+
 div{
     background-color: #2B4C8C;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.377);
+
 }
-.img{
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
     display: flex;
     flex-direction: column;
     margin-top: -20px;
 }
-.introducao{
 
+.introducao{
+    margin-top: 10px;
+    justify-content: center;
 }
+
+.rodape{
+    background-color:#2B4C8C;
+    text-align: center;
+    padding: 10px;
+} 
